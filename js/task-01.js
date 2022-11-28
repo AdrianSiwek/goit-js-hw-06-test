@@ -5,5 +5,5 @@ console.log(`Number of categories: ${numberOfCategories.length}`);
 const arrayCategories = numberOfCategories.forEach((item) => {
     console.log("");
     console.log(`Category: ${item.querySelector('h2').textContent}`);
-    console.log(`Elements: ${item.querySelector("li").length}`);
+    console.log(`Elements: ${item.querySelectorAll("li").length}`);
 });
